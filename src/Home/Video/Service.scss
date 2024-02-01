@@ -1,0 +1,36 @@
+.serv{
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: space-around;
+
+    .services{
+       display: inline;
+       padding: 20px 20px;
+        width: 20%;
+        img{
+           padding: 10px 80px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+    }
+}
+button {
+    display: flex;
+    padding: 16px 32px 16px 24px;
+    border:none;
+    justify-content: center;
+   align-items: center;
+    gap: 16px;
+    background: #0C6967;
+    border-radius: 100px;
+    font-size: 15px;
+    color: #fff;
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    height: 70px;
+    position: relative;
+    display: flex;
+    padding: 0 150px;
+    .logo{
+        display: flex;
+        width: 20%;
+        .webn{
+            color: rgb(13, 56, 19);
+            font-size: 30px;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+    }
+    .left_wrapper{
+        padding: 20px 0;
+        font-family: "rene-bieder-milliard-medium";
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+        .links{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: rgb(135, 133, 133);
+        font-size: 24px;
+        width: 100%;
+        padding: 20px;
+        }
+       
+    }
+
+    .right_wrapper{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        align-self: stretch;
+a{
+    cursor: pointer;
+    display: block;
+    color: #938c8c;
+    font-size: 1.7vw;
+}
+
+    .btnf{
+        button{
+            display: flex;
+            border: none;
+            color: #fff;
+            padding: 12px 22px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 100px;
+            background: #D95103;
+        }
+    }
+}
+}

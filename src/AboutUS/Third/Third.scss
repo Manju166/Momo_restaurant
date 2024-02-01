@@ -1,0 +1,55 @@
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 150px;
+    #even{
+        flex-direction: row-reverse;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        gap: 144px;
+        height: 500px;
+        justify-content: center;
+        .abtext{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            h1 {
+                padding: 0 150px 0 0;
+                font-weight: bold;
+                font-size: 2vw;
+                span{
+                    color: #D95103;
+                }
+            }
+            p{
+                font-size: 1.2vw;
+                color: #6B788E;
+            }
+        }
+        .abimg{
+            height: 600px;
+            width: 600px;
+            display: flex;
+            align-items: center;
+            .rightimg{
+                 height: 450px;
+                 width: 580px;
+                 object-fit: cover;
+            }
+            span{
+                display: flex;
+                align-items: end;
+                position: absolute;
+                height: 500px;
+                width: 700px;
+                right: 9%;
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

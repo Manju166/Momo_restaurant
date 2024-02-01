@@ -1,0 +1,132 @@
+.tou{
+    margin: 40px;
+}
+.head{
+    text-align: center;
+    font-size: 24px;
+    span{
+        color: #ff5100;
+    }
+    h4{
+        color: #0C6967;
+    }
+}
+.ff{
+    width: 1128px;
+    display: flex;
+    gap: 90px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 40px 80px 10px 80px;
+    box-shadow: 0px 8px 101px 0px #0000000D;
+.con{
+    background-color: #0C6967;
+    padding: 32px;
+    border-radius: 16px;
+    gap: 40px;
+    line-height: 24.2px;
+    color: #FFFFFF;
+    .adr{
+        height: 88px;
+        width: 360px;
+        line-height: 24.2px;
+        font-size: 20px;
+        font-weight: 400;
+        h3{
+           padding: 9px 0; 
+        }
+    }
+    #icon{
+        position: relative;
+        top: 4px;
+    }
+    h2{
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .divone{
+        display: flex;
+        gap: 60px;
+        .num{
+            padding: 5px 0;
+            font-size: 20px;
+            i{
+                font-size: 18px;
+            }
+        }
+    }
+    .divtwo{
+        display: flex;
+        gap: 56px;
+        i{
+            font-size: 20px;
+        }
+    }
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 100px;
+}
+.socicon{
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+    font-size: 24px;
+}
+}
+.form{
+    width: 587px;
+    padding: 15px 0;
+    border-radius: 16px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    form{
+    width: 539px;
+    height: 620px;
+    gap: 24px;
+    .input-box{
+    display: flex;
+    gap: 16px;
+    input{
+    width: 258px;
+    height: 48px;
+    border: 1px solid #DFE2E6;
+    }  
+    }
+    h3{
+    padding: 10px 0;
+    }
+    input{
+    height: 48px;
+    width: 536px;
+    border: 1px solid #DFE2E6;
+    }
+    select{
+    height: 51px;
+    width: 539px;
+    border: 1px solid #DFE2E6;
+    }
+    .custom-container {
+        width: 536px;
+        height: 48px;
+      }
+      .custom-input {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+    textarea{
+    border: 1px solid #DFE2E6;
+    }
+button{
+background-color: #ff5100;
+width: 200px;
+height: 45px;
+margin-top: 25px;
+}
+    }
+}
+

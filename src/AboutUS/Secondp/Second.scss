@@ -1,0 +1,33 @@
+.sec{
+    margin-top: 50px;
+    .vtext{
+        justify-content: center;
+        position: absolute;
+        bottom: -470px;
+        left: 190px;
+        line-height: 60px;
+        h2{
+            color: #FFFFFF;
+            font-size: 2.5em;
+        }
+        p{
+            color: #FFFFFF;
+            font: 1em sans-serif;
+        }
+        .btn{
+            display: inline-block;
+            margin-top: 25px;
+            span{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+            }
+        }
+    }
+    img{
+            width: 100%;
+            object-fit: cover;
+    }
+    
+}
